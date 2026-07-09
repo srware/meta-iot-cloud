@@ -5,7 +5,6 @@ DEPENDS = "\
     parson \
 "
 
-S = "${WORKDIR}/git"
 B = "${WORKDIR}/build"
 
 PACKAGECONFIG ??= "amqp http mqtt"

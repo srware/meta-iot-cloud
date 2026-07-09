@@ -18,7 +18,6 @@ SRC_URI += "\
     file://0003-Fix-include-paths.patch \
 "
 
-S = "${WORKDIR}/git"
 B = "${WORKDIR}/build"
 
 EXTRA_OECMAKE = "\

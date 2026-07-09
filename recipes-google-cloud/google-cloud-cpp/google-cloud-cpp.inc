@@ -29,7 +29,6 @@ RDEPENDS:${PN} += "\
     protobuf \
 "
 
-S = "${WORKDIR}/git"
 B = "${WORKDIR}/build"
 
 

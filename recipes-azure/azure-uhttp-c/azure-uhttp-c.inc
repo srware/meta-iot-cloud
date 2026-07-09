@@ -10,7 +10,6 @@ SRC_URI += "\
     file://Fix-packaging-issues.patch \
 "
 
-S = "${WORKDIR}/git"
 B = "${WORKDIR}/build"
 
 EXTRA_OECMAKE += "\

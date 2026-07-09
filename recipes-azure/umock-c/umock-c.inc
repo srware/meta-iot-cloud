@@ -4,7 +4,6 @@ DEPENDS = "\
     azure-macro-utils-c \
 "
 
-S = "${WORKDIR}/git"
 B = "${WORKDIR}/build"
 
 EXTRA_OECMAKE = "\

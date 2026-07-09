@@ -6,7 +6,6 @@ DEPENDS = "\
     umock-c \
 "
 
-S = "${WORKDIR}/git"
 B = "${WORKDIR}/build"
 
 EXTRA_OECMAKE += "\

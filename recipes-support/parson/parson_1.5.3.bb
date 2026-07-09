@@ -12,8 +12,6 @@ SRC_URI = "\
     git://github.com/kgabis/parson.git;protocol=https;branch=master;rev=ba29f4eda9ea7703a9f6a9cf2b0532a2605723c3 \
 "
 
-S = "${WORKDIR}/git"
-
 EXTRA_OECMAKE = "\
     -DBUILD_SHARED_LIBS:BOOL=ON \
 "

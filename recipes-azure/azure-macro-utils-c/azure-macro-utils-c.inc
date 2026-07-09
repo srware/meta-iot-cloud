@@ -1,6 +1,5 @@
 inherit cmake
 
-S = "${WORKDIR}/git"
 B = "${WORKDIR}/build"
 
 sysroot_stage_all:append () {
