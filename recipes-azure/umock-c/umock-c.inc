@@ -7,6 +7,7 @@ DEPENDS = "\
 B = "${WORKDIR}/build"
 
 EXTRA_OECMAKE = "\
+    -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
     -Duse_installed_dependencies:BOOL=ON \
 "
 

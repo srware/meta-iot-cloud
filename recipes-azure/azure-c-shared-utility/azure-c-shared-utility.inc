@@ -25,6 +25,7 @@ EXTRA_OECMAKE = "\
     -Dskip_samples:BOOL=ON \
     -Duse_installed_dependencies:BOOL=ON \
     -Drun_unittests:BOOL=OFF \
+    -DCMAKE_C_STANDARD=11 \
 "
 
 sysroot_stage_all:append () {
